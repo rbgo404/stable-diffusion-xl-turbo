@@ -83,7 +83,7 @@ def infer(self, inputs):
 
 **Finalize** - This function is used to perform any cleanup activity for example you can unload the model from the gpu by setting to `None`.
 ```python
-def finalize(self,args):
+def finalize(self):
   self.pipeline = None
 ```
 
